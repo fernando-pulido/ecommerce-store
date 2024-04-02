@@ -1,0 +1,10 @@
+.carousel-image {
+  height: calc(100dvh - 96px);
+  img {
+    background-size: cover;
+    height: 100dvh;
+    background-position: center;
+    object-fit: cover;
+    width: 100dvw;
+  }
+}
