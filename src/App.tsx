@@ -1,18 +1,8 @@
-import { useState } from 'react'
-
 import './App.css'
+import Nabvar from './components/Navbar/Navbar'
 
 function App() {
-  const [count, setCount] = useState(0)
-
-  return (
-    <>
-      <button onClick={() => setCount(count => count + 1)}>
-        count is {count}
-      </button>
-      <button onClick={() => count}> borrar</button>
-    </>
-  )
+  return <Nabvar />
 }
 
 export default App
