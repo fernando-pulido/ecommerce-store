@@ -1,8 +1,8 @@
 import './App.css'
-import Nabvar from './components/Navbar'
+import Layout from './layout/Layout'
 
 function App() {
-  return <Nabvar />
+  return <Layout />
 }
 
 export default App
